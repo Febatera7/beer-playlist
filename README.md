@@ -2,7 +2,17 @@
 
 In this app, you can save data such as beer style, ideal minimum temperature and ideal maximum temperature, about the beer styles you prefer, and then pass the temperature at which you intend to drink your beer and the app will choose the most suitable playlist on Spotify.
 
-While there is documentation with Swagger going to **http://localhost:{PORT}/{APP_VERSION}/docs**, below are some examples of how to do this. In this example, we will use port **8550**. Remember that when downloading, you will need to create your own environment variables, with the example in the _.env.sample_ file.
+### How to install and run
+
+Remember that when downloading, you will need to create your own environment variables, with the example in the _.env.sample_ file.
+You need to have Node(v14.20.1) and Yarn(v1.22.19) installed in your environment. So, open the project, run _yarn_ in your terminal.
+Create the **.env** file in the root of the project and set the required variables.
+Then you can run the yarn build scripts and then _yarn start_.
+If you prefer to run in a development environment, you can just run _yarn dev_.
+
+## Methods
+
+While there is documentation with Swagger going to **http://localhost:{PORT}/{APP_VERSION}/docs**, below are some examples of how to do this. In this example, we will use port **8550**. 
 
 > For the _GET_ method **{APP_VERSION}/beers**, no parameter is needed, so it will not be exemplified.
 ### Get Playlist
