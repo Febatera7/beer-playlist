@@ -1,0 +1,9 @@
+node_modules
+dist
+.yarn
+yarn-error.log
+test.*
+test
+package-lock.json
+.env
+swagger-output-base-example.json
