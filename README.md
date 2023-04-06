@@ -1,4 +1,4 @@
-# Beer Playlist
+# Beer Playlist 🍺
 
 In this app, you can save data such as beer style, ideal minimum temperature and ideal maximum temperature, about the beer styles you prefer, and then pass the temperature at which you intend to drink your beer and the app will choose the most suitable playlist on Spotify.
 
